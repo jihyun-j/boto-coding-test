@@ -17,7 +17,9 @@ const CardFilp = () => {
         return (
           <div
             key={index}
-            className={`relative w-56 h-80 cursor-pointer rounded-md bg-indigo-700`}
+            className={`relative w-56 h-80 cursor-pointer rounded-md bg-indigo-700 ${
+              cardIndex === index && "transform rotate-y-180"
+            }`}
             onClick={() => handleFlipCard(index)}>
             <div
               className={`absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]`}>
