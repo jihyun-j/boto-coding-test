@@ -26,7 +26,7 @@ input을 만들고 그 입력창에 숫자만 입력이 가능하게 하고 표�
 클릭하면 뒤집히는 카드를 구현하여 제출해주세요. (원하는 이미지 2장을 이용해서 구현해주세요)
 
 ### 구현사항
-- 한 번에 선택된 카드만 뒤집어지게 구현.
+- 한 번에 선택된 카드만 뒤집어지게 구현
 - [Tailwind 3dTransform Plugin](https://xpd-kasun.github.io/tailwind-3dtransform-plugin/) 을 사용해 카드를 뒤집을 시 입체 효과 추가
 
 
