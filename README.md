@@ -6,14 +6,11 @@
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 
 
-## 최종 결과물
-![ezgif com-video-to-gif-converter](https://github.com/jihyun-j/boto-coding-test/assets/80092348/8b6a2b1f-ab08-4ae5-8d09-b51eac682ec0)
-
-
-
 ## 문제 2
 input을 만들고 그 입력창에 숫자만 입력이 가능하게 하고 표시되는 내용에는 comma(,)를 포함해서 표시할 수 있게하여 제출해주세요. <br>
 (해당 입력창 타입은 double 타입을 입력할 수 있습니다.)
+
+![new_recording_-_7_6_2024_4_44_09_pmOriginal-ezgif com-video-to-gif-converter](https://github.com/jihyun-j/boto-coding-test/assets/80092348/9e186355-8969-46f8-8f01-d752985ebd62)
 
 ### 구현사항
 - 정규식을 사용하여 숫자와 마침표 입력만 가능하게 구현
@@ -24,6 +21,7 @@ input을 만들고 그 입력창에 숫자만 입력이 가능하게 하고 표�
 
 ## 문제 3 
 클릭하면 뒤집히는 카드를 구현하여 제출해주세요. (원하는 이미지 2장을 이용해서 구현해주세요)
+![new_recording_-_7_6_2024_4_18_17_pmOriginal-ezgif com-video-to-gif-converter](https://github.com/jihyun-j/boto-coding-test/assets/80092348/25ff7bdc-70ca-45a5-aab0-cb1f87fbd9a2)
 
 ### 구현사항
 - 한 번에 선택된 카드만 뒤집어지게 구현
