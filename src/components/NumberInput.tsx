@@ -15,22 +15,20 @@ const NumberInput = () => {
 
     let formattedNumber = decimal[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     if (decimal[1] !== undefined) {
-      formattedNumber = formattedNumber + "." + decimal[1];
+      formattedNumber = formattedNumber + "." + decimal[1].slice(0, 5);
     }
 
-    console.log(formattedNumber);
     setNumber(formattedNumber);
   };
 
   return (
-    <div>
+    <div className="flex flex-col">
       <input
         type="text"
-        className="bg-slate-300"
+        className="bg-slate-300 w-96 rounded-md p-2"
         value={number}
+        placeholder="숫자를 입력해 주세요. (소수 가능)"
         onChange={onChangeNumber}></input>
-      {}
-      {number}
     </div>
   );
 };
