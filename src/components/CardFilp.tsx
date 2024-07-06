@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const CardFilp = () => {
   const imgArr = Array(2)
